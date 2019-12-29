@@ -18,6 +18,6 @@ ladon -m dist/maingallery/RELDIR "dist/maingallery/**/*.png" -- oxipng -o 6 -q -
 ladon -m dist/maingallery/RELDIR "dist/maingallery/**/*.png" -- advpng -z -3 -q FULLPATH
 
 #cwebp
-ladon -m dist/maingallery/RELDIR "dist/maingallery/**/*.jpg" -- cwebp -q 85 -quiet FULLPATH " -o " dist/maingallery/RELDIR/BASENAME.webp
-ladon -m dist/maingallery/RELDIR "dist/maingallery/**/*.jpeg" -- cwebp -q 85 -quiet FULLPATH " -o " dist/maingallery/RELDIR/BASENAME.webp
-ladon -m dist/maingallery/RELDIR "dist/maingallery/**/*.png" -- cwebp -q 85 -quiet FULLPATH " -o " dist/maingallery/RELDIR/BASENAME.webp
+ladon -m dist/maingallery/RELDIR "dist/maingallery/**/*.jpg" -- cwebp -q 90 -m 6 -mt -pass 10 -quiet FULLPATH " -o " dist/maingallery/RELDIR/BASENAME.webp
+ladon -m dist/maingallery/RELDIR "dist/maingallery/**/*.jpeg" -- cwebp -q 90 -m 6 -mt -pass 10 -quiet FULLPATH " -o " dist/maingallery/RELDIR/BASENAME.webp
+ladon -m dist/maingallery/RELDIR "dist/maingallery/**/*.png" -- cwebp -q 90 -m 6 -mt -pass 10 -quiet FULLPATH " -o " dist/maingallery/RELDIR/BASENAME.webp
